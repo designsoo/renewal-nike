@@ -1,0 +1,705 @@
+@media screen and (max-width: 1500px) {
+  /* 4. section : Featured Shoes */
+  .feature__text-box {
+    left: 30px;
+    bottom: 30px;
+    z-index: 10;
+  }
+}
+/* ==================== Desktops - 1280px ==================== */
+@media screen and (max-width: 1280px) {
+  /* common */
+  .center {
+    width: 100%;
+  }
+  section .title {
+    font-size: 3.5vw;
+    padding: 6vw 0 6vw;
+  }
+
+  /*  mainBanner */
+  .title-box > h2 {
+    font-size: 4rem;
+  }
+  .pick-box {
+    right: 40px;
+  }
+  .item-1,
+  .item-2,
+  .item-3 {
+    top: 20%;
+    right: 0%;
+  }
+  .item-1 img,
+  .item-2 img,
+  .item-3 img {
+    width: 80%;
+  }
+  .d-1 {
+    top: 53%;
+  }
+  .d-1 .thumbnail {
+    top: -200px;
+    left: -80px;
+  }
+  .d-2 {
+    right: 28%;
+  }
+  .d-3 {
+    left: 32%;
+  }
+  .d-3 .thumbnail {
+    top: 80px;
+    left: 0;
+  }
+  /* b-2 */
+  .b-2 > p {
+    padding-top: 100px;
+    font-size: 25rem;
+  }
+  .b-2 > .img-box {
+    top: 100px;
+    left: 30%;
+  }
+  .b-2 > .img-box img {
+    height: 550px;
+  }
+  .b-2 > .title-box {
+    float: left;
+    width: 100%;
+    padding: 50px 0 0 200px;
+  }
+  .b-2 > .title-box > p {
+    width: 40%;
+  }
+  /* 1. section : The Latest And Greatest */
+  .latest {
+    height: 80vw;
+  }
+  .latest .center {
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+  .latest__item {
+    height: auto;
+  }
+  .card {
+    width: 100%;
+    height: 50vw;
+  }
+  .card::after {
+    font-size: 15vw;
+  }
+  .card .imgBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
+  .card:hover .imgBox {
+    top: 15%;
+    transform: translate(-50%, 0%);
+  }
+  .card .imgBox img {
+    width: 20vw;
+  }
+  .latest__item:first-child .card .imgBox img {
+    width: 22vw;
+  }
+  .card__text-box {
+    /* height: 160px; */
+    height: 15vw;
+  }
+  .card:hover .card__text-box {
+    /* height: 240px; */
+    height: 22vw;
+  }
+  .card .card__text-box p {
+    font-size: 2.4vw;
+  }
+  .card .card__text-box span {
+    font-size: 3vw;
+    margin: 1.4vw 0;
+  }
+  .card .card__text-box a {
+    font-size: 1.4vw;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  /* 2. section : Trending Now */
+  .trand__box {
+    grid-template-rows: repeat(2, minmax(10vw, 27vw));
+  }
+  .trand__box-item img {
+    background-position: center center;
+  }
+  /* 3. section : Best Day Ever */
+  .call-to-action {
+    margin-top: 0;
+  }
+  .action__text-box > h2 {
+    font-size: 8vw;
+    padding: 0;
+  }
+  .action__text-box > p {
+    font-size: 1.6vw;
+  }
+  /* 4. section : Featured Shoes */
+  .feature__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, minmax(20%, auto));
+  }
+  .feature__list > li:last-child {
+    display: block;
+    text-align: center;
+    background-color: rgb(209, 209, 209);
+  }
+  .feature__list > li:hover:last-child {
+    box-shadow: none;
+  }
+  .feature__list > li:last-child > a::after {
+    display: none;
+  }
+  /*  5. section : video */
+  .videoWrap {
+    width: 100%;
+  }
+  .video > h2 {
+    font-weight: 300;
+    padding: 6vw 0 2vw;
+  }
+  .videoWrap .play img {
+    height: 16vw;
+  }
+
+  /* 6. section : miniBanner */
+  .control-box {
+    width: 100%;
+    padding: 100px 0 100px;
+  }
+  .mTitleWrap {
+    width: 20%;
+    height: 100%;
+    float: left;
+  }
+  .mTitle {
+    padding-bottom: 0;
+  }
+  .control-box .arrowBtn {
+    width: 50%;
+    float: left;
+    margin-top: 0;
+  }
+  .miniContainer {
+    position: static;
+    padding-bottom: 450px;
+  }
+
+  /* 7. section : Apparel Essentials */
+  .apparel {
+    width: 100%;
+  }
+  .apparel__list > li {
+    width: 33.333%;
+  }
+  .apparel__list > li > a > span {
+    font-size: 3vw;
+  }
+  /* 8. section : search */
+  .search > p {
+    font-size: 6vw;
+    padding: 10vw 0 4vw;
+  }
+
+  /* footer */
+  footer {
+    padding: 60px 30px;
+    background-origin: padding-box;
+  }
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1168px) {
+  .footer-logo {
+    width: 100%;
+  }
+  .footer-item {
+    width: 100%;
+  }
+  footer small {
+    float: left;
+    padding-top: 30px;
+  }
+}
+
+/* ==================== Tablets(landscape) - 1024px ====================*/
+@media screen and (max-width: 1024px) {
+  /* mainBanner */
+  .title-box {
+    width: 50%;
+    margin: 200px 0 0 150px;
+  }
+  .title-box > p {
+    display: none;
+  }
+  .title-box .moreBtn {
+    display: block;
+  }
+  .item-1,
+  .item-2,
+  .item-3 {
+    top: 25%;
+  }
+  .item-1 img,
+  .item-2 img,
+  .item-3 img {
+    width: 76%;
+  }
+  .detail-box .thumbnail {
+    width: 100px;
+    height: 140px;
+  }
+  .d-1 .thumbnail {
+    top: 0px;
+    left: -150px;
+  }
+  /* b-2 */
+  .b-2 > p {
+    padding: 120px 0 0 50px;
+    font-size: 22rem;
+  }
+  .b-2 > .img-box {
+    top: 50%;
+    left: 20%;
+  }
+  .b-2 > .img-box img {
+    height: 450px;
+  }
+  .b-2 > .title-box {
+    padding: 100px 0 0 200px;
+  }
+  .b-2 > .title-box img {
+    height: 60px;
+  }
+  .b-2 > .title-box > p {
+    width: 70%;
+  }
+  /* 1. section : The Latest And Greatest */
+  .card .card__text-box span {
+    margin: 2vw 0;
+  }
+  .card .card__text-box a {
+    margin-top: 0;
+  }
+  /* 2. section : Trending Now */
+  .trand__text-box p {
+    font-size: 2vw;
+  }
+  /* 4. section : Featured Shoes */
+  .feature__text-box h4 {
+    font-size: 2vw;
+  }
+  /* 7. section : Apparel Essentials */
+  .apparel__list > div::after,
+  .apparel__list > div::before,
+  .apparel__list > div > a::after,
+  .apparel__list > div > a::before {
+    display: none;
+  }
+  .apparel__list .gradientBox {
+    display: none;
+  }
+  .apparel__list > div > a > span {
+    opacity: 1;
+    color: #000;
+    border-bottom: 1px solid #000;
+    transform: translateY(-50%);
+  }
+  .apparel__list > div:hover span {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+}
+
+/* ==================== Tablets(portrait) - 768px ==================== */
+@media screen and (max-width: 768px) {
+  section .title {
+    font-size: 4vw;
+    padding: 10vw 0 6vw;
+  }
+  .navi-top {
+    left: 120px;
+    right: 50px;
+    height: 100px;
+  }
+  .navi-top > h1 {
+    float: initial;
+    margin-bottom: 10px;
+  }
+  .navi-top > ul {
+    float: initial;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navi-top > ul > li {
+    float: left;
+  }
+  /* common */
+  .title-box {
+    top: 76%;
+  }
+  .title-box > h2 {
+    font-size: 3rem;
+    width: 80%;
+  }
+  .title-box > p {
+    display: none;
+  }
+  .title-box .moreBtn {
+    display: block;
+  }
+  .pick-box {
+    right: 0;
+    bottom: 160px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 40px;
+  }
+
+  /* b-2 */
+  .b-2 > p {
+    padding: 160px 0 0 80px;
+    font-size: 16rem;
+  }
+  .b-2 > .img-box {
+    left: 18%;
+  }
+  .b-2 > .img-box img {
+    margin-top: 50px;
+    height: 400px;
+  }
+  .b-2 > .title-box {
+    padding: 100px 0 0 150px;
+  }
+  .b-2 > .title-box > p {
+    display: block;
+    width: 70%;
+  }
+
+  /* 2. section : Trending Now */
+  .trand__box {
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(50%, 40vw));
+    padding-bottom: 0;
+  }
+  .trand__box-item:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    order: 1;
+  }
+  .trand__box-item:nth-child(2) {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .trand__box-item:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .trand__box-item:nth-child(4) {
+    grid-column: 2/4;
+    grid-row: 1/2;
+  }
+  .trand__text-box p {
+    font-size: 3.5vw;
+  }
+  .trand__text-box a {
+    font-size: 3.5vw;
+  }
+
+  /* 3. section : Best Day Ever */
+  .call-to-action {
+    /* height: 80vw; */
+  }
+  .action__text-box > h2 {
+    font-size: 8vw;
+    padding: 0;
+  }
+  .action__text-box > p {
+    font-size: 2vw;
+    line-height: 24px;
+    padding: 15px 0 15px;
+  }
+  .action__text-box a {
+    font-size: 2vw;
+  }
+  /* 4. section : Featured Shoes */
+  .feature__list > li:last-child {
+    display: none;
+  }
+  .feature__list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, minmax(20%, auto));
+  }
+  .feature__text-box h4 {
+    font-size: 3vw;
+  }
+
+  /*  5. section : video */
+  .video > h2 {
+    padding: 10vw 0 3vw;
+  }
+  .video p {
+    font-size: 2vw;
+  }
+  .video .moreBtn {
+    font-size: 2vw;
+    margin: 4vw 0 6vw;
+  }
+
+  /* 7. section : Apparel Essentials */
+  .apparel__list > li > a > span {
+    opacity: 1;
+    /* transform: translateY(-50%); */
+    color: #fff;
+    border-bottom: 2px solid #fff;
+  }
+  .search__input-box input {
+    width: 60%;
+  }
+}
+/* ==================== Smartphones(landscape) - 480px ==================== */
+@media screen and (max-width: 480px) {
+  section .title {
+    font-size: 2rem;
+  }
+  /* 1. section : The Latest And Greatest */
+  .latest .title {
+    margin: 0 0 30px 30px;
+  }
+  .latest .center {
+    padding: 0;
+  }
+  .latest {
+    height: 100%;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .latestWrap {
+    padding-bottom: 30px;
+  }
+  .latest__item {
+    width: 400px !important;
+    height: 100%;
+  }
+  .card {
+    width: 100%;
+    height: 240px;
+    border-radius: 20px;
+  }
+  .card:hover {
+    box-shadow: none;
+    transform: translateY(0px);
+  }
+  /* nike 글씨 배경 */
+  .card::after {
+    top: 40%;
+    left: 5%;
+    font-size: 10rem;
+  }
+  .card:hover::before {
+    clip-path: circle(150px at 80% 20%);
+  }
+  .card .imgBox {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0%, -50%);
+  }
+  .card:hover .imgBox {
+    top: 50%;
+    left: 5%;
+    transform: translate(0%, -50%);
+  }
+  .card .imgBox img {
+    width: 180px;
+  }
+  .latest__item:first-child .card .imgBox img {
+    width: 200px;
+  }
+  .card__text-box {
+    right: 0;
+    height: 200px;
+    width: 50%;
+  }
+  .card:hover .card__text-box {
+    height: 200px;
+  }
+  .card .card__text-box p {
+    font-size: 1.8rem;
+  }
+  .card .card__text-box span {
+    font-size: 4rem;
+    padding: 10px;
+    opacity: 1;
+    visibility: visible;
+  }
+  .card .card__text-box a {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  /* 2. section : Trending Now */
+  .trand__box {
+    padding: 0;
+  }
+  /* 3. section : Best Day Ever */
+  .call-to-action {
+    overflow-x: hidden;
+    margin-top: 10vw;
+  }
+  .action__text-box {
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+  .call-to-action > video {
+    height: 100%;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0%;
+  }
+  .action__text-box > h2 {
+    font-size: 10vw;
+    padding: 4vw 0;
+  }
+  .action__text-box > p {
+    font-size: 3.4vw;
+    font-weight: 300;
+    padding: 10px 0 30px;
+    line-height: 30px;
+  }
+  .action__text-box > p span {
+    display: inline;
+  }
+  .action__text-box a {
+    font-size: 4vw;
+    padding: 8px 14px;
+    margin-right: 10px;
+  }
+  /*  4. section : Featured Shoes */
+  .feature__text-box {
+    left: 10%;
+    bottom: 10%;
+  }
+  .feature__text-box h4 {
+    font-size: 14px;
+  }
+  .feature__text-box span {
+    font-size: 12px;
+  }
+  /* 5. section : video */
+  .video p {
+    font-size: 3vw;
+    padding: 5px 0;
+  }
+  .video .moreBtn {
+    font-size: 3vw;
+  }
+  .pc-video {
+    display: none;
+  }
+  .mobile-video {
+    display: block;
+  }
+  /* 8. section : search */
+  .search__input-box input::placeholder {
+    font-size: 1.6rem;
+  }
+  /* footer */
+  footer {
+    width: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+  .footer-logo {
+    width: 100%;
+    padding: 50px 0 10px;
+    margin: 0;
+  }
+  .footer-menu > li {
+    margin-right: 15px;
+  }
+  .footer-menu > li > a {
+    font-size: 1.2rem;
+  }
+  address p {
+    font-size: 1.2rem;
+  }
+  footer small {
+    float: left;
+    font-size: 1.2rem;
+    padding-top: 20px;
+  }
+}
+/* ==================== Smartphones(portrait) - 360px ==================== */
+@media screen and (max-width: 360px) {
+  section .title {
+    font-size: 22px;
+  }
+  .trand {
+    padding: 50px 0;
+  }
+  .trand .title {
+    padding: 0 0 30px 0;
+  }
+  .trand__box {
+    grid-template-rows: repeat(2, minmax(50%, 60vw));
+  }
+  /* 3. section : Best Day Ever */
+  .action__text-box > p {
+    font-size: 14px;
+  }
+  /* 4. section : Featured Shoes */
+  .feature__list {
+    grid-template-rows: repeat(4, minmax(20%, 200px));
+  }
+  .feature__list > li img {
+    width: 100%;
+    height: auto;
+  }
+  .feature__text-box h4 {
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
+  .feature__text-box span {
+    font-size: 1.2rem;
+  }
+  .feature__list > li > a::after {
+    width: 30px;
+    height: 30px;
+  }
+  /* 5. section : video */
+  .video {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .video p {
+    font-size: 4vw;
+    padding: 5px 0;
+  }
+  .video .moreBtn {
+    font-size: 1.4rem;
+  }
+  .videoWrap video {
+    padding: 0 0 50px 0;
+  }
+}
